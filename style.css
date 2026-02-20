@@ -1,0 +1,50 @@
+body {
+  background-color: #472372; /* soft background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 0.5px solid #ccc;
+  margin: 15px 0;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2, h3 {
+  margin: 5px 0;
+}
+
+.connect-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
